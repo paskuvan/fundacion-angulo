@@ -126,9 +126,8 @@ export default function Hero() {
             <FadeUp delay={0.7}>
               <div style={{ display: "flex", gap: 0, background: "rgba(255,255,255,0.08)", borderRadius: 20, overflow: "hidden", width: "fit-content" }}>
                 {[
-                  { num: "50+", label: "Niños beneficiados" },
-                  { num: "4",   label: "Años de trabajo" },
-                  { num: "5+",  label: "Programas activos" },
+                  { num: "7500+", label: "niños sordos necesitan una sociedad inclusiva" },
+                  
                 ].map(({ num, label }, i) => (
                   <div key={num} style={{
                     padding: "18px 28px",
