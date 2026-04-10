@@ -95,7 +95,7 @@ export default function Hero() {
                     fontFamily: "var(--font-display)",
                     fontSize: 58,
                     fontWeight: 900,
-                    fontStyle: i === 2 ? "italic" : "normal",
+                    fontStyle: "normal",
                     color: i === 2 ? "var(--teal-light)" : "var(--white)",
                     lineHeight: 1.1,
                     display: "block",
@@ -126,16 +126,16 @@ export default function Hero() {
             <FadeUp delay={0.7}>
               <div style={{ display: "flex", gap: 0, background: "rgba(255,255,255,0.08)", borderRadius: 20, overflow: "hidden", width: "fit-content" }}>
                 {[
-                  { num: "500+", label: "Niños beneficiados" },
-                  { num: "12",   label: "Años de trabajo" },
-                  { num: "30+",  label: "Programas activos" },
+                  { num: "50+", label: "Niños beneficiados" },
+                  { num: "4",   label: "Años de trabajo" },
+                  { num: "5+",  label: "Programas activos" },
                 ].map(({ num, label }, i) => (
                   <div key={num} style={{
                     padding: "18px 28px",
                     borderRight: i < 2 ? "1px solid rgba(255,255,255,0.1)" : "none",
                     textAlign: "center",
                   }}>
-                    <div style={{ fontFamily: "var(--font-display)", fontSize: 30, fontWeight: 900, color: "var(--teal-light)", fontStyle: "italic" }}>{num}</div>
+                    <div style={{ fontFamily: "var(--font-display)", fontSize: 30, fontWeight: 900, color: "var(--teal-light)" }}>{num}</div>
                     <div style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", fontWeight: 500, marginTop: 4 }}>{label}</div>
                   </div>
                 ))}
@@ -159,7 +159,7 @@ export default function Hero() {
               transform: "translate(-50%, -50%)",
               display: "flex", alignItems: "center", justifyContent: "center",
             }}>
-              <div style={{ fontSize: 120, lineHeight: 1 }}>🧒🏽</div>
+              <img src="/logotipo-angulo.png" alt="Fundación Ángulo" style={{ width: 260, height: 260, objectFit: "contain" }} />
             </div>
 
             {/* Rotating ring */}

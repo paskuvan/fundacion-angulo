@@ -23,21 +23,7 @@ export default function Nav() {
     >
       {/* Logo */}
       <motion.a href="#" whileHover={{ scale: 1.04 }} style={{ display: "flex", alignItems: "center", gap: 12 }}>
-        <div style={{
-          width: 36, height: 36,
-          background: "linear-gradient(135deg, var(--teal-light), var(--green-light))",
-          borderRadius: "50%",
-          display: "flex", alignItems: "center", justifyContent: "center",
-          fontSize: 18,
-        }}>🤟</div>
-        <div style={{ lineHeight: 1.1 }}>
-          <div style={{ fontFamily: "var(--font-display)", fontWeight: 900, fontSize: 18, color: "var(--white)", fontStyle: "italic" }}>
-            Fundación
-          </div>
-          <div style={{ fontFamily: "var(--font-display)", fontWeight: 900, fontSize: 14, color: "var(--teal-light)", fontStyle: "italic" }}>
-            Ángulo
-          </div>
-        </div>
+        <img src="/logo-angulo-light.png" alt="Fundación Ángulo" style={{ height: 40, width: "auto", objectFit: "contain" }} />
       </motion.a>
 
       {/* Links */}

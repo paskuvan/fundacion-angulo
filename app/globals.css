@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,700;1,9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* ─── TOKENS ─────────────────────────────────────────────────── */
 :root {
@@ -29,7 +29,7 @@
   --coral:         #E8715A;
 
   /* Fonts */
-  --font-display: 'Fraunces', serif;
+  --font-display: "Miranda Sans", sans-serif;
   --font-body:    'DM Sans', sans-serif;
 
   /* Radii */
