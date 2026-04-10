@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { FadeUp, FadeLeft, FadeRight, Stagger, StaggerItem } from "./motion";
 
 const PILARES = [
-  { icon: "🏛️", title: "Derechos",   desc: "Reconocimiento pleno de los derechos de niños y adolescentes sordos en Chile.",      color: "var(--teal)",  pale: "var(--teal-pale)"  },
-  { icon: "📚", title: "Educación",  desc: "Educación bilingüe y bicultural en lengua de señas chilena (LSCh) para todos.",       color: "var(--green)", pale: "var(--green-pale)" },
+  { icon: "🏛️", title: "Derechos",   desc: "Consolidar y promover los derechos de la comunidad sorda y ser una red de apoyo integral y multidemsional destinada a reparar, acompañar y defender los derechos culturales, lingüísticos y sociales de las infancias y adolescencias sordas. ",      color: "var(--teal)",  pale: "var(--teal-pale)"  },
+  { icon: "📚", title: "Educación",  desc: "Contribuir al desarrollo integral y calidad de vida de infancias y adolescencias sordas a nivel nacional, por medio de diversas actividades, proyectos y programas que permitan otorgan herramientas..",       color: "var(--green)", pale: "var(--green-pale)" },
   { icon: "👨‍👩‍👧", title: "Familias",  desc: "Acompañamiento real a familias con talleres, orientación y redes de apoyo mutuo.",  color: "var(--accent)", pale: "var(--accent-pale)" },
   { icon: "📣", title: "Incidencia", desc: "Incidencia en políticas públicas para garantizar la inclusión en el sistema escolar.", color: "var(--coral)",  pale: "#FFF0EE"            },
 ];
@@ -89,7 +89,7 @@ export default function Quienes() {
               borderRadius: 24, padding: "28px",
               display: "flex", alignItems: "center", gap: 20,
             }}>
-              <div style={{ fontSize: 52, fontFamily: "var(--font-display)", fontWeight: 900, fontStyle: "italic", color: "white", lineHeight: 1 }}>12</div>
+              <div style={{ fontSize: 52, fontFamily: "var(--font-display)", fontWeight: 900, fontStyle: "italic", color: "white", lineHeight: 1 }}>4</div>
               <div>
                 <div style={{ fontFamily: "var(--font-display)", fontSize: 18, fontWeight: 900, color: "white", fontStyle: "italic" }}>años</div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.75)" }}>trabajando por la infancia sorda en Chile</div>

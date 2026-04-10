@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import { FadeUp, FadeLeft, FadeRight, Stagger, StaggerItem } from "./motion";
 
 const FORMAS = [
-  { icon: "💰", title: "Donación",       desc: "Tu aporte mensual sostiene programas de acompañamiento y educación para niños sordos.",       cta: "Donar ahora",    color: "var(--teal)",  href: "mailto:contacto@fundacionangulo.org" },
+  { icon: "💰", title: "Donación",       desc: "Tu aporte sostiene programas de acompañamiento y educación para niños sordos.",       cta: "Donar ahora",    color: "var(--teal)",  href: "mailto:contacto@fundacionangulo.org" },
   { icon: "🙋", title: "Voluntariado",   desc: "Súmate a nuestros talleres, eventos y actividades de sensibilización en LSCh.",                cta: "Ser voluntario", color: "var(--green)", href: "mailto:contacto@fundacionangulo.org" },
-  { icon: "📣", title: "Difundir",       desc: "Comparte nuestra misión en redes sociales y ayúdanos a llegar a más familias.",                cta: "Compartir",      color: "var(--accent)",href: "https://fundacionangulo.org"         },
+  { icon: "📣", title: "Difundir",       desc: "Comparte nuestra misión en redes sociales y ayúdanos a llegar a más familias.",                cta: "Compartir",      color: "var(--accent)",href: "https://www.instagram.com/angulo.fundacion"         },
   { icon: "🤝", title: "Alianzas",       desc: "Si representas una empresa u organización, podemos construir alianzas de impacto.",            cta: "Conversemos",    color: "var(--coral)", href: "mailto:contacto@fundacionangulo.org" },
 ];
 
 const IMPACTO = [
-  { monto: "$15.000/mes", desc: "Cubre materiales educativos de un niño" },
-  { monto: "$50.000/mes", desc: "Financia un taller de LSCh para familias" },
-  { monto: "$100.000/mes",desc: "Apoya el acompañamiento de 3 familias" },
+  { monto: "$1.000", desc: "Cubre materiales educativos de un niño" },
+  { monto: "$5.000", desc: "Financia un taller de LSCh para familias" },
+  { monto: "$15.000",desc: "Apoya el acompañamiento de una familia" },
 ];
 
 export default function Ayudar() {
